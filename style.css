@@ -1,12 +1,18 @@
 body {
     background-color: #1f2937;
-    height: 100vh;
+    height: 180vh;
+    width: 100%;
     margin: 0;
     overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    flex: 1;
+    overflow: auto;
+}
+
+.body1, .body2, .body3, .body4 {
+    flex: 1;
 }
 
 .header {
@@ -50,6 +56,7 @@ a, .footer {
 .body1 {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -60,7 +67,7 @@ img {
 
 .text h1 {
     color: #f9faf8;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bolder;
     padding: 0 0 8px 0;
     margin: 0;
@@ -100,23 +107,28 @@ button {
     color: #1f2937;
     font-weight: bolder;
     font-size: 10px;
-    padding-top: 16px;
+    padding: 16px;
 }
 
 .body2 {
     background-color: white;
     padding: 0;
     margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .cards {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 16px;
 }
 
 .card1, .card2, .card3, .card4 {
-    width: 160px;
+    width: 150px;
 }
 
 .card1 img, .card2 img, .card3 img, .card4 img {
@@ -135,3 +147,29 @@ button {
     padding: 4px;
 }
 
+.body3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 20px;
+    font-style: italic;
+    padding: 0;
+    display: flex;
+    width: 600px;
+}
+
+.citation {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    padding-top: 16px;
+    margin-left: 300px;
+}
