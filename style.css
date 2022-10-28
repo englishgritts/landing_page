@@ -11,7 +11,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 16px;
 }
 
@@ -19,6 +19,11 @@ body {
     font-weight: bolder;
     font-size: 24px;
     color: #f9faf8
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
 }
 
 ul {
@@ -75,6 +80,8 @@ button {
     color: #e5e7eb;
     font-weight: bold;
     border-radius: 4px;
+    margin-top: 4px;
+    padding: 2px;
 }
 
 .text {
@@ -86,3 +93,45 @@ button {
     padding: 16px;
     margin: 0;
 }
+
+.center_header {
+    justify-content: center;
+    display: flex;
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 10px;
+    padding-top: 16px;
+}
+
+.body2 {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1, .card2, .card3, .card4 {
+    width: 160px;
+}
+
+.card1 img, .card2 img, .card3 img, .card4 img {
+    height: 50px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.card1, .card2, .card3, .card4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+}
+
