@@ -173,3 +173,29 @@ button {
     padding-top: 16px;
     margin-left: 300px;
 }
+
+.body4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.ctahead {
+    display: flex;
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+}
+
+.ctadesc {
+    display: flex;
+    font-size: 18px;
+    color: white;
+}
+
+.cta {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
