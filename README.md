@@ -1,1 +1,1 @@
-First attempt at a website
+First attempt at a static website - The Odin Project
